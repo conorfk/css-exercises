@@ -1,0 +1,21 @@
+.odd { /*class style for odd lines*/
+    background-color: #fd48c4;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.font-size-adjustment { /*class style for adjusting font size*/
+    font-size: 24px;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: #70f676;
+    font-weight: bold;
+}
+
+
+
