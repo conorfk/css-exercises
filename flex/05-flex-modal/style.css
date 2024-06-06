@@ -20,9 +20,33 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.first-line {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -48,6 +72,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: 104px;
 }
 
 button {
